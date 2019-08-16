@@ -1,0 +1,57 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Holly Login
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+    body {
+      font-family: "Inter", sans-serif;
+      background-color: #d1cec8;
+    }
+    /* Disable ligatures for the entire heading */
+    .no-ligatures {
+      font-feature-settings: "liga" 0;
+    }
+  </style>
+ </head>
+ <body class="flex justify-center items-center min-h-screen p-4">
+  <div class="relative w-[375px] h-[812px] rounded-[40px] border border-black bg-[#f1eee6] flex flex-col items-center pt-10 px-6">
+   <h1 class="text-[48px] font-extrabold text-black relative mb-6 select-none no-ligatures flex items-center" style="line-height: 1">
+    <span>
+     H
+    </span>
+    <span class="relative inline-block w-[60px] h-[60px] mx-1 flex flex-col justify-center items-center text-[14px] font-black tracking-widest text-black" style="font-family: 'Arial Black', Arial, sans-serif; line-height: 1">
+     <span class="block leading-[0.8]">
+      ARE
+     </span>
+     <span class="block leading-[0.8] border-[3px] border-black px-[2px] -my-[2px]">
+      ADVIS
+     </span>
+     <span class="block leading-[0.8]">
+      PLICO
+     </span>
+    </span>
+    <span>
+     Y Login
+    </span>
+   </h1>
+   <img alt="Holly Login hook!" class="w-[300px] h-[300px] rounded-[20px] object-cover mb-6" height="300" src="img/ee9b855f0e686a3f233f5e17a017cf9c.jpg" width="300"/>
+   <form class="w-full max-w-[300px] flex flex-col gap-3">
+    <input class="w-full rounded-md border border-gray-400 bg-[#f1eee6] px-4 py-3 text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-black" placeholder="Email address" type="email"/>
+    <input class="w-full rounded-md border border-gray-400 bg-[#f1eee6] px-4 py-3 text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-black" placeholder="Password" type="password"/>
+    <button class="w-full bg-black text-white rounded-[12px] py-3 text-lg font-normal mt-1" type="submit">
+     Log in
+    </button>
+   </form>
+   <p class="mt-4 text-black text-base select-none">
+    Forgot password?
+   </p>
+  </div>
+ </body>
+</html>
