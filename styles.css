@@ -1,0 +1,153 @@
+/* styles.css - styles for Holly Login project */
+
+/* Base styles */
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #000000;
+  color: #00ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Dock styles */
+.dock {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #2c3e50; /* MATE dark blue-gray */
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 2px solid #00ffff;
+  font-family: "Ubuntu", "Cantarell", "DejaVu Sans", sans-serif; /* Common Linux fonts */
+  font-size: 16px;
+  color: #ecf0f1;
+}
+
+.dock button {
+  background: none;
+  border: none;
+  color: #00ffff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Badge style */
+.badge {
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
+  background-color: #2980b9; /* MATE blue */
+  color: white;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-family: "Ubuntu", "Cantarell", "DejaVu Sans", sans-serif;
+  font-size: 14px;
+  box-shadow: 0 0 5px #2980b9;
+}
+
+/* Container common styles */
+.container {
+  width: 375px;
+  height: 812px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 24px 80px 24px;
+}
+
+/* GenZ dark-neonical skeomorphic theme */
+.genz {
+  border: 2px solid cyan;
+  background: linear-gradient(to bottom, #111, #333);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.1);
+  color: #00ffff;
+}
+
+.genz h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+
+.genz form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.genz input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid cyan;
+  background: #111;
+  color: cyan;
+  font-size: 16px;
+  outline: none;
+}
+
+.genz button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  background: cyan;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+/* Horrific theme */
+.horrific {
+  background: black;
+  box-shadow: 0 0 20px red;
+  color: red;
+  font-family: 'Creepster', cursive;
+}
+
+.horrific h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  text-shadow: 0 0 10px red, 0 0 20px red;
+}
+
+.horrific form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.horrific input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid red;
+  background: #220000;
+  color: red;
+  font-size: 16px;
+  outline: none;
+}
+
+.horrific button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  background: red;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}

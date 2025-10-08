@@ -16,4 +16,4 @@ A horrific login page with dark and scary design, eerie effects, animations for 
 
 ## Screenshots
 
-![Zoom In Max](zoom-in-max.png)
+<img src="zoom-in-max.png" alt="Zoom In Max" style="width: 300px; height: auto;" />
